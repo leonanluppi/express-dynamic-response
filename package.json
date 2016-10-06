@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leonanluppi/express-response"
+    "url": "https://github.com/leonanluppi/express-dynamic-response"
   },
   "keywords": [
     "express",
@@ -25,7 +25,7 @@
     "email": "leonan.luppi@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/leonanluppi/express-response/issues"
+    "url": "https://github.com/leonanluppi/express-dynamic-response/issues"
   },
   "engines": {
     "node": ">= 0.10"
