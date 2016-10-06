@@ -2,7 +2,7 @@
   "name": "express-dynamic-response",
   "version": "1.0.0",
   "description": "Lib to create custom response object in express framework",
-  "main": "lib/index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel -w lib/ -d build/",
