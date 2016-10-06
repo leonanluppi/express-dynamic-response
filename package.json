@@ -1,0 +1,41 @@
+{
+  "name": "express-response",
+  "version": "1.0.0",
+  "description": "Lib to create custom response object in express framework",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -w lib/ -d build/",
+    "start": "babel-node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leonanluppi/express-response"
+  },
+  "keywords": [
+    "express",
+    "response",
+    "custom-response",
+    "expressjs",
+    "node",
+    "response"
+  ],
+  "author": {
+    "name": "Leonan Luppi",
+    "email": "leonan.luppi@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/leonanluppi/express-response/issues"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0"
+  }
+}
