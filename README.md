@@ -19,13 +19,13 @@ $ mkdir <RESPONSE_FOLDER>
 
 Then just setup as a new middleware (ES6):
 ```sh
-import expressResponse from 'express-response'
+import expressResponse from 'express-dynamic-response'
 app.use(expressResponse(path.join(__dirname, <YOUR_RESPONSE_FOLDER>))
 ```
 
 Then just setup as a new middleware (ES5):
 ```sh
-var expressResponse = require('express-response');
+var expressResponse = require('express-dynamic-response');
 app.use(expressResponse(path.join(__dirname, <YOUR_RESPONSE_FOLDER>))
 ```
 
@@ -35,7 +35,7 @@ After setup a new middleware you can go to response folder then create a new res
 //this is a express.response class so you have everthing you need here
 module.exports = function() {
     this.status(200);
-    this.send('adads');
+    this.send('Hello Im a custom response');
 };
 ```
 
